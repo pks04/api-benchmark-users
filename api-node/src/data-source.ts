@@ -18,4 +18,3 @@ export const AppDataSource = new DataSource({
   migrations: [],
   subscribers: [],
 });
-console.log(path.join(__dirname, "entities", "*.{js,ts}"))
